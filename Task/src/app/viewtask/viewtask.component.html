@@ -1,0 +1,16 @@
+<p>viewtask works!</p>
+<table  class="table table-responsive">
+    <tr><th>Task</th>
+    <th>Priority</th>
+<th >strat</th>
+<th >end</th></tr>
+<tr *ngFor="let obj1 of obj">
+<td>{{obj1.Task|uppercase}}</td>
+<td>{{obj1.priority}}</td>
+<td >{{obj1.startdate|date:'shortDate'}}</td>
+<td>{{obj1.enDdate|date:'shortDate'}}</td>
+
+</tr>
+
+
+</table>

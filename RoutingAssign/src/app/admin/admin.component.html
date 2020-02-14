@@ -1,0 +1,25 @@
+<p>admin works!</p>
+<table align="center">
+    <h1 class="text-info">Welcome {{unam}}</h1>
+    <tr>
+        <td>
+            <a [routerLink]="['Add-category']" >Add-category</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a [routerLink]="['Add-removeBuyer']" >Add-removeBuyer</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a [routerLink]="['Add-removeSeller']" >Add-removeSeller</a> 
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <button class="btn btn-primary" (click)="logout()">Logout</button>
+        </td>
+    </tr>
+</table>
+<!-- <router-outlet></router-outlet> -->

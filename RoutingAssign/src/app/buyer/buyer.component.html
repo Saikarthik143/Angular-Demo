@@ -1,0 +1,26 @@
+<p>buyer works!</p>
+<h1 class="text-info">Welcome {{uname}}</h1>
+<table align="center">
+    
+    <tr>
+        <td>
+            <a [routerLink]="['BUYitem']" >buyitem</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a [routerLink]="['viewcart']" >viewcart</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a [routerLink]="['payment']" >payment</a> 
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <button class="btn btn-primary" (click)="logout()">Logout</button>
+        </td>
+    </tr>
+</table>
+<!-- <router-outlet></router-outlet> -->

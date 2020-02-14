@@ -1,0 +1,34 @@
+<p>addtask works!</p>
+<table align="center">
+    
+    <tr>
+        <td>
+            Task:
+        </td>
+        <td><input type="text" [(ngModel)]="task" required></td>
+    </tr>
+    <tr>
+        <td>
+            Priority:
+        </td>
+        <td><input type="range" [(ngModel)]="priority" required></td>
+    </tr>
+    <tr>
+        <td>
+            Startdate:
+        </td>
+        <td><input type="date" [(ngModel)]="startdate" required></td>
+    </tr>
+    <tr>
+        <td>
+            Enddate:
+        </td>
+        <td><input type="date" [(ngModel)]="enddate" required></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <button class="btn btn-primary" (click)="Add()">Add Task</button>
+            <!-- <button (click)="Reset()">Reset</button> -->
+        </td>
+    </tr>
+</table>
